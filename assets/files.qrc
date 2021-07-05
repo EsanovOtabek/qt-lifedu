@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/2072252.png</file>
+        <file>images/2074169.png</file>
+        <file>images/2176361.png</file>
+        <file>images/courses-icon-27.jpg</file>
+        <file>images/l.png</file>
+        <file>images/logout.png</file>
+        <file>images/png-clipart-computer-icons-google-classroom-icons8-google-text-rectangle.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>lifedu.db</file>
+        <file>user.db</file>
+    </qresource>
+</RCC>

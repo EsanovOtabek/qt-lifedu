@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QDialog" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>436</width>
+    <height>540</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>725</width>
+    <height>540</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,1,1,0">
+   <property name="spacing">
+    <number>25</number>
+   </property>
+   <property name="leftMargin">
+    <number>25</number>
+   </property>
+   <property name="topMargin">
+    <number>25</number>
+   </property>
+   <property name="rightMargin">
+    <number>25</number>
+   </property>
+   <property name="bottomMargin">
+    <number>25</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">font: 75 24pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Login</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,5">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Email:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="placeholderText">
+        <string>email</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,5">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>password</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+padding:5px 32px;
+</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Login</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Login</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
