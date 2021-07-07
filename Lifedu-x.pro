@@ -1,9 +1,3 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2021-05-22T16:36:20
-#
-#-------------------------------------------------
-
 QT       += core gui webkit webkitwidgets
 QT       +=sql
 
@@ -11,7 +5,6 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Lifedu-x
 TEMPLATE = app
-
 
 SOURCES += main.cpp\
         mainwindow.cpp \
