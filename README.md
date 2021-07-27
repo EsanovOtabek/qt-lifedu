@@ -38,6 +38,8 @@ MVC arxitekturasi tamoyillari qayta foydalanib bo'ladigan kod yozishni ta'minlay
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.003.jpeg)
 ## **1-rasm. MVC ishlash prinsipi**
 
+
+
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.004.png)
 
 ### **1. Model**
@@ -62,15 +64,23 @@ Controller - ikkala model va views'dagi o'zgarishlarni yangilaydi. U kiritish(in
 [Db.h](https://github.com/EsanovOtabek/qt-lifedu/blob/main/db.h)
 
 - Session Class – bu klassda dasturni ochgan foydalanuvchini local ma’lumotlari saqlanadigan baza bilan ishlaydi (3-rasm).
-- DBHelper Class – bu klassda dasturning ma’lumotlar bazasi bilan ishlaydi (4-rasm). Ushbu class C++ dasturlash tilining STL (Standart Template Library) kutubxonasidagi <map> sinfining imkoniyatlaridan foydlanilgan
+- DBHelper Class – bu klassda dasturning ma’lumotlar bazasi bilan ishlaydi (4-rasm). Ushbu class C++ dasturlash tilining
+
+ STL (Standart Template Library) kutubxonasidagi <map> sinfining imkoniyatlaridan foydlanilgan
+
+	
 
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.006.png)
 
 **3-rasm. Session sinfi**
 
+
+
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.007.png)
 
 4-rasm. DBHelper sinfi
+
+
 
 - **.h kutubxona fayllar**
 
@@ -130,40 +140,64 @@ Controller - ikkala model va views'dagi o'zgarishlarni yangilaydi. U kiritish(in
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 5-rasm. Bosh sahifa
 
+
+
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 6-rasm. Login
+
+
 
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 7-rasm. Kurslar
 
+
+
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 8-rasm. Kursni olish.
+
+
 
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 9-rasm. Sinfxona
 
+
+
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 10-rasm. Darsni ustiga 2 marta bossa dars ochiladi.
+
+
 
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 11-rasm. About sahifasi. Buning uchun Webview ishlatilgan
 
+
+
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 12-rasm Admin uchun foydalanuvchilarni qo’shish qayta ishlash sahifasi.
+
+
 
 Foydalanuvchini ustiga 2 marta bossa Foydananuvchini ma’lumotlarini ko’radi.
 
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 13-rasm. Admin – kurslarga yangi dars qo’shish sahifasi
 
+
+
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.008.png)
 14-rasm. Kurs qo’shish sahifasi
+
+
 
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.009.png)
 15-rasm. Admin – kurslar va ularning darslarini nazorat qilish bo’limi
 
+
+
 ![](assets/images/Aspose.Words.309febe3-4476-44f3-82ba-72644b7c972b.010.png)
 16-rasm. Loyiha logotipi.
+
+
 
 **Xulosa:**
 **
